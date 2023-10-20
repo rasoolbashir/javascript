@@ -25,3 +25,20 @@ function iHandler(){
     document.getElementById("play").innerHTML = check;
 }
 iHandler()
+
+
+
+// function iHandler(){
+//     console.log("iHandler",number.textcontant)
+//     number.textcontant = +(number.textcontant) + 1
+// }
+
+// function dHandler(){
+//     console.log("dHandler",number.textcontant)
+//     number.textcontant = +(number.textcontant) - 1
+// }
+
+// function rHandler(){
+//     console.log("rHandler",number.textcontant)
+//     number.textcontant = 0
+// }

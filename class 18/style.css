@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+background-color: grey;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    margin: 8px 0;
+    color: #000;
+}
+.menu ul, .socialsIcon ul{
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+.menu li:first-child{
+    padding-left: 0;
+}
+.menu li, .socialsIcon li{
+    padding: 5px 10px;
+}
+.menu li a, .socialsIcon li a{
+    color: #000;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#menuBtn i{
+    font-size: 24px;
+    color: #000;
+}

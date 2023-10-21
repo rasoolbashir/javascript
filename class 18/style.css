@@ -3,8 +3,13 @@ body{
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    background-color: rgb(240, 240, 240)
+    ;
+}
 header{
-background-color: grey;
+background-color: white;
+color: #000;
 }
 .container{
     width: 90%;
